@@ -1,4 +1,4 @@
-package edu.icet.controller;
+package edu.icet.contoller;
 
 import edu.icet.dto.Author;
 import edu.icet.service.AuthorService;

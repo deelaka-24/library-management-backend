@@ -5,6 +5,7 @@ import edu.icet.entity.BookAuthorEntity;
 import edu.icet.repository.BookAuthorRepository;
 import edu.icet.service.BookAuthorService;
 import lombok.RequiredArgsConstructor;
+import lombok.extern.slf4j.Slf4j;
 import org.modelmapper.ModelMapper;
 import org.springframework.stereotype.Service;
 
@@ -13,6 +14,7 @@ import java.util.List;
 
 @Service
 @RequiredArgsConstructor
+@Slf4j
 public class BookAuthorServiceImpl implements BookAuthorService {
 
     final BookAuthorRepository bookAuthorRepository;

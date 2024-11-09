@@ -1,4 +1,4 @@
-package edu.icet.contoller;
+package edu.icet.controller;
 
 import edu.icet.dto.Book;
 import edu.icet.service.BookService;

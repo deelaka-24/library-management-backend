@@ -1,4 +1,4 @@
-package edu.icet.contoller;
+package edu.icet.controller;
 
 import edu.icet.dto.Member;
 import edu.icet.service.MemberService;
